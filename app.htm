@@ -1,0 +1,32 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+  <script src="app.js" defer></script>
+</head>
+<body class="bg-gray-700 font-mono">
+  <p class="flex justify-center mt-60 text-white text-2xl bg-gray-900">We are playing Rock Paper Scissor</p>
+  <div class="flex justify-center mt-20">
+    <div id="btns" class="space-x-9"> 
+      <button class="bg-gray-900 hover:bg-yellow-700 text-white py-2 px-4 border border-indigo-700 rounded px-5 py-4 text-lg" id="rock">
+          Rock
+      </button>
+        
+      <button class="bg-gray-900 hover:bg-purple-700 text-white py-2 px-4 border border-indigo-700 rounded px-5 py-4 text-lg" id="paper">
+          Paper
+      </button>
+
+
+      <button class="bg-gray-900 hover:bg-green-700 text-white py-2 px-4 border border-indigo-700 rounded px-5 py-4 text-lg" id="scissors">
+          Scissor
+      </button>
+    </div>
+  </div>
+
+  <div class="flex flex-col	justify-center mt-20 text-white py-2 px-4 text-2xl" id="tryagain">
+    <button id="tryagain" class="bg-green-200 hover:bg-green-700 text-black border-indigo-700 px-5 py-4">Try Again</button>
+    <div class="flex justify-center bg-green-500 px-5 py-4" id="resultdiv">
+      Results: <label id="result"></label>
+    </div>
+  </div>
+</body>
+</html>
